@@ -1,0 +1,13 @@
+Teach -R A = "A"
+Teach -L B = "B"
+Teach -L C = "C"
+Teach -L D = "D"
+Teach -L E = "E"
+Teach -R F = "F"
+Teach A = true
+Teach F = true
+Teach (A|E)&!(B&C) -> D
+Teach A -> B
+Teach A -> C
+Why D
+0
